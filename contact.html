@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Energy Redeem Technology | Premium Solar Company</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <button
+          class="menu-toggle"
+          aria-label="Open menu"
+          aria-expanded="false"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <a class="brand" href="index.html">
+          <img
+            src="/assets/images/ChatGPT Image Mar 31, 2026, 07_59_09 AM.png"
+            alt=""
+            style="width: 85px; max-height: auto"
+          />
+          <span class="brand-text">
+            <strong>Energy Redeem Technology</strong>
+            <span>Solar power engineering and energy resilience</span>
+          </span>
+        </a>
+        <nav class="nav-links">
+          <a href="index.html" class="">Home</a>
+          <a href="projects.html" class="">Projects</a>
+          <a href="solutions.html" class="">Solutions</a>
+          <a href="about.html" class="">About</a>
+          <a href="contact.html" class="active">Contact</a>
+        </nav>
+        <div class="nav-cta">
+          <a class="btn btn-secondary" href="contact.html">Request Quote</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="page-hero">
+        <div class="page-hero-media">
+          <img
+            src="assets/images/battery-tech.jpg"
+            alt="Solar battery system installation"
+          />
+        </div>
+        <div class="container page-intro reveal">
+          <span class="eyebrow">Contact</span>
+          <h1>
+            Request a quote for a solar system that fits your property properly.
+          </h1>
+          <p>
+            Share your location, project type and what you want the system to
+            power. Our team will respond with a structured next step.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container contact-layout">
+          <div class="contact-copy reveal">
+            <span class="eyebrow">Request a quote</span>
+            <h2 style="margin-top: 0; font-size: clamp(2rem, 4vw, 3rem)">
+              Talk to a team that understands premium energy projects.
+            </h2>
+            <p>
+              We support residential, commercial and industrial enquiries across
+              design, installation, battery storage and maintenance. Use the
+              form to start a proper conversation.
+            </p>
+            <div class="contact-points">
+              <div class="contact-point">
+                <i class="fa-solid fa-phone"></i>
+                <div><strong>Phone</strong><span>+234 701 732 3491</span></div>
+              </div>
+              <div class="contact-point">
+                <i class="fa-solid fa-envelope"></i>
+                <div>
+                  <strong>Email</strong
+                  ><span>energyredeemtechnology@gmail.com</span>
+                </div>
+              </div>
+              <div class="contact-point">
+                <i class="fa-solid fa-location-dot"></i>
+                <div><strong>Address</strong><span>Iju Ishaja Lagos</span></div>
+              </div>
+            </div>
+            <div
+              style="
+                margin-top: 1.25rem;
+                display: flex;
+                gap: 1rem;
+                flex-wrap: wrap;
+              "
+            >
+              <a class="btn btn-whatsapp" href="https://wa.me/2347017323491"
+                ><i class="fa-brands fa-whatsapp"></i>Chat on WhatsApp</a
+              >
+              <a class="btn btn-secondary" href="projects.html"
+                >View Projects</a
+              >
+            </div>
+          </div>
+
+          <div class="contact-form-wrap reveal delay-1">
+            <form data-quote-form>
+              <div class="form-grid">
+                <div class="field">
+                  <label for="name">Full Name</label>
+                  <input
+                    id="name"
+                    name="name"
+                    type="text"
+                    placeholder="Enter your full name"
+                    required
+                  />
+                </div>
+                <div class="field">
+                  <label for="phone">Phone</label>
+                  <input
+                    id="phone"
+                    name="phone"
+                    type="tel"
+                    placeholder="Enter your phone number"
+                    required
+                  />
+                </div>
+                <div class="field">
+                  <label for="email">Email</label>
+                  <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    placeholder="Enter your email address"
+                    required
+                  />
+                </div>
+                <div class="field">
+                  <label for="project_type">Project Type</label>
+                  <select id="project_type" name="project_type" required>
+                    <option value="">Select project type</option>
+                    <option>Residential Solar</option>
+                    <option>Commercial Solar</option>
+                    <option>Industrial Solar</option>
+                    <option>Battery Storage</option>
+                    <option>Maintenance</option>
+                  </select>
+                </div>
+                <div class="field full-span">
+                  <label for="message">Project Details</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    placeholder="Tell us about your site, location, energy needs or what you want the system to power."
+                    required
+                  ></textarea>
+                </div>
+                <div class="full-span">
+                  <button class="btn btn-primary" type="submit">
+                    Send Quote Request <i class="fa-solid fa-paper-plane"></i>
+                  </button>
+                  <p class="form-note">
+                    <!-- The form UI is fully ready. Run the included Flask app to
+                    store quote requests in a CSV file. -->
+                  </p>
+                  <div class="form-status" aria-live="polite"></div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-col">
+          <div class="brand" style="margin-bottom: 1rem">
+            <span class="brand-mark"
+              ><i class="fa-solid fa-solar-panel"></i
+            ></span>
+            <span class="brand-text">
+              <strong>Energy Redeemed Technology</strong>
+              <span>Premium solar design, deployment and maintenance</span>
+            </span>
+          </div>
+          <p>
+            We design solar systems that reduce downtime, cut energy costs and
+            strengthen business continuity for homes, estates and commercial
+            facilities.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <div class="footer-links">
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="solutions.html">Solutions</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <div class="footer-links">
+            <a href="solutions.html">Residential Solar</a>
+            <a href="solutions.html">Commercial Solar</a>
+            <a href="solutions.html">Battery Storage</a>
+            <a href="solutions.html">Maintenance</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <div class="footer-links">
+            <a href="tel:+2347017323491">+234 701 732 3491</a>
+            <a href="mailto:hello@energyredeemed.com"
+              >hello@energyredeemed.com</a
+            >
+            <span>15 Admiralty Way, Lekki Phase 1, Lagos</span>
+          </div>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© 2026 Energy Redeemed Technology. All rights reserved.</span>
+        <span>Built for premium client presentation and deployment.</span>
+      </div>
+    </footer>
+    <a
+      class="whatsapp-float"
+      href="https://wa.me/2347017323491"
+      aria-label="Chat on WhatsApp"
+      ><i class="fa-brands fa-whatsapp"></i
+    ></a>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
